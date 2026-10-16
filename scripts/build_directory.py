@@ -234,7 +234,12 @@ def display_name(org):
     """
     name = org["org_name"]
     short = org.get("org_short", "")
-    if not short or short.lower() in name.lower():
+    # abbr_hidden: the short code stays (it is the anchor id and the map
+    # popup's key) but never renders. Added for Glenwood Springs - the
+    # other municipalities skip the abbreviation via the substring rule
+    # above, so "(GWS)" made one town look branded when nobody uses the
+    # initialism (October county review).
+    if not short or short.lower() in name.lower() or org.get("abbr_hidden"):
         return esc(name)
     return f'{esc(name)} <span class="org__abbr">({esc(short)})</span>'
 
