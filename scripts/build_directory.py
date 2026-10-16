@@ -541,7 +541,7 @@ __FRAGMENT__
   <p>
     Service-area boundaries are clipped to the Roaring Fork Watershed and are
     not legal boundaries. Several districts extend beyond the watershed; each
-    organization's full jurisdiction is described in its entry above.
+    organization's full service area is described in its entry above.
   </p>
 </footer>
 
