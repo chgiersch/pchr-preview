@@ -316,18 +316,18 @@
     "org_name": "Twin Lakes Reservoir and Canal Company",
     "org_short": "TLRCC",
     "abbr_hidden": true,
-    "section": "Basin and statewide organizations",
+    "section": "Water providers",
     "category": "Water Providers",
-    "tier": "regional",
+    "tier": "service_area",
     "scope": "Upper Roaring Fork headwaters - diverts to the East Slope",
+    "water_source": "A 45-square-mile collection area in the upper Roaring Fork subbasin - Lost Man, Lincoln and Grizzly creeks.",
     "mission": "Stores and distributes irrigation water for the mutual benefit of its company stockholders and agricultural users.",
     "description": "Operates the Independence Pass Transmountain Diversion System, collecting water from a 45-square-mile area of the upper Roaring Fork subbasin - including Lost Man Creek, Lincoln Creek and Grizzly Creek - and routing it through the Twin Lakes Tunnel into Twin Lakes Reservoir in the Arkansas River watershed, the fifth-largest transmountain diversion in the state. Provides water for Colorado Springs, Pueblo, Pueblo West and parts of Aurora, all from the Roaring Fork River, typically diverting around 38,000 acre-feet annually with rights up to 46,000 acre-feet. Western Slope communities and local groups, including Pitkin County and the Roaring Fork Conservancy, frequently collaborate or negotiate water-sharing agreements with the company to balance East Slope diversions with instream flow needs in the Roaring Fork Valley.",
     "funding_model": "Water rates in Colorado Springs, Pueblo, Pueblo West and Aurora.",
     "provides_funding": "No",
     "website": "",
-    "boundary_id": "huc8_roaring_fork",
     "category_confirmed": false,
-    "caveat": "Added 10/2026 from the program coordinator's roster on the recommendation of a watershed-organization director. No public website - the company is reachable by mail in Ordway, CO. provides_funding answered No by assumption (a mutual ditch company); pending the program coordinator's confirmation. abbr_hidden because nobody uses an initialism for the company. No boundary of its own - points at the watershed like the other basin/statewide rows; its collection area is the upper Roaring Fork subbasin."
+    "caveat": "Added 10/2026 from the program coordinator's roster on the recommendation of a watershed-organization director. No public website - the company is reachable by mail in Ordway, CO. No website and no funding confirmed by the program coordinator, 10/23/26, who also moved it to Water providers and made it directory-only (no boundary, no map presence) - it is a bulk diverter, not a retail server, and the section note says so. abbr_hidden because nobody uses an initialism for the company."
   },
   {
     "org_name": "U.S. Bureau of Reclamation",
@@ -344,5 +344,19 @@
     "boundary_id": "huc8_roaring_fork",
     "category_confirmed": false,
     "caveat": "Added 10/2026 from the program coordinator's roster on the recommendation of a watershed-organization director (part of the Dept. of the Interior). No extent of its own - points at the watershed; the agency operates across 17 western states, locally running Ruedi Reservoir and the Fryingpan-Arkansas diversion."
+  },
+  {
+    "org_name": "Southeastern Colorado Water Conservancy District",
+    "org_short": "SECWCD",
+    "section": "Water providers",
+    "category": "Water Providers",
+    "tier": "service_area",
+    "scope": "Fryingpan-Arkansas Project - diverts to the East Slope",
+    "description": "Administers the water of the Fryingpan-Arkansas Project, the federal transmountain diversion that collects water from the upper Fryingpan River and Hunter Creek and delivers it to cities and farms in the Arkansas River valley. The District spans nine counties on the East Slope; its presence in the Roaring Fork Watershed is the project's collection system in the upper Fryingpan valley.",
+    "water_source": "The upper Fryingpan River and Hunter Creek.",
+    "provides_funding": "No",
+    "website": "secwcd.org",
+    "category_confirmed": false,
+    "caveat": "Added 10/23/26 at the program coordinator's direction (her answers in red moved both transmountain diversions to Water providers, directory-only). The roster row carried only the website and water source; the description was drafted by the maintainer from public project information and the mission omitted rather than invented - both pending her sign-off, as is provides_funding No (assumption). No funding_model known."
   }
 ]

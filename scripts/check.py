@@ -294,7 +294,7 @@ def run_embed_checks():
 def run_data_checks():
     print("DATA")
     orgs = json.loads(ORGS.read_text())
-    check("orgs.json holds 19 organizations", len(orgs) == 19,
+    check("orgs.json holds 20 organizations", len(orgs) == 20,
           f"An accidental deletion or duplication is invisible until the page "
           f"renders short; found {len(orgs)}.")
     required = {"org_name", "org_short", "section", "scope", "tier"}
