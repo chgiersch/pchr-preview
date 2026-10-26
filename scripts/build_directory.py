@@ -474,10 +474,9 @@ PROTOTYPE_NOTE = """<p class="prototype-note">
 # rather than the host page so the iframe's aria-describedby always resolves
 # and the wording ships under lint.
 MAP_EMBED = """<p class="map-panel__intro" id="map-intro">
-    A directory of the organizations that manage, protect and deliver water
-    in the Roaring Fork Watershed &ndash; local districts and towns, basin
-    agencies and statewide bodies &ndash; with a map of where each one
-    operates.
+    A comprehensive directory of the agencies and organizations that manage
+    water in the Roaring Fork Watershed &ndash; paired with an interactive
+    map showing their operating areas within the watershed.
 </p>
 <details class="map-help">
   <summary>How to use this page</summary>
