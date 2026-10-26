@@ -340,7 +340,7 @@ def run_data_checks():
     # research, so a new provider row cannot silently ship without the line;
     # a row that gains the field must leave this list, so the list stays an
     # honest record of what is still owed.
-    pending_source = {"BWCD", "MVMD", "WDWCD"}
+    pending_source = set()   # emptied 10/23/26 - every provider answered
     providers = [o for o in orgs if o.get("section") == "Water providers"]
     no_source = [o["org_short"] for o in providers
                  if not o.get("water_source")

@@ -24,6 +24,7 @@
   {
     "org_name": "Basalt Water Conservancy District",
     "org_short": "BWCD",
+    "water_source": "Diversions off the Roaring Fork River and its tributaries, with storage in Ruedi and Green Mountain reservoirs.",
     "section": "Water providers",
     "category": "Water Providers",
     "tier": "service_area",
@@ -182,17 +183,18 @@
     "scope": "Aspen Glen, Coryell Ranch, Midland Point & Ironbridge",
     "mission": "Distribution and supply of water for domestic and other uses, collection and treatment of sewage from District customers, and maintenance, repair and replacement of the mains, hydrants, valves and service facilities the District owns.",
     "description": "Established on 5 May 1994. The District currently provides water and sewer service to the Aspen Glen, Coryell Ranch, Midland Point and Ironbridge developments, along with Riverview School.",
-    "water_source": "Municipal supply, delivered by water main.",
+    "water_source": "Water mains from the municipal supply, sourced from the Roaring Fork River.",
     "funding_model": "Special district - user rates and taxes.",
     "provides_funding": "No",
     "website": "rfwsd.com",
     "boundary_id": "rfwsd_boundary",
     "category_confirmed": true,
-    "caveat": "Real official boundary from Colorado DOLA, 7/28/26. Which municipality supplies the water is being confirmed with the county (9/9/26)."
+    "caveat": "Real official boundary from Colorado DOLA, 7/28/26. Source confirmed as the Roaring Fork River by the program coordinator, 10/23/26."
   },
   {
     "org_name": "Mid Valley Metropolitan District",
     "org_short": "MVMD",
+    "water_source": "A series of wells throughout the mid-valley area.",
     "section": "Water providers",
     "category": "Water Providers",
     "tier": "service_area",
@@ -209,6 +211,7 @@
   {
     "org_name": "West Divide Water Conservancy District",
     "org_short": "WDWCD",
+    "water_source": "Augmentation releases from Ruedi, Green Mountain and Wolford Mountain reservoirs.",
     "section": "Water providers",
     "category": "Water Providers",
     "tier": "service_area",
@@ -336,7 +339,7 @@
     "mission": "To manage, develop and protect water and related resources in an environmentally and economically sound manner in the interest of the American public.",
     "description": "Established in 1902, the Bureau of Reclamation is best known for the dams, powerplants and canals it constructed in the 17 western states, and today manages water to help western states, Native American Tribes and others meet new water needs and balance the many competing uses of water in the West. In the Roaring Fork Watershed, Reclamation operates Ruedi Reservoir and the Fryingpan-Arkansas Project, a major transmountain diversion off the Fryingpan River and Hunter Creek that provides water to agriculture in the Arkansas River valley.",
     "funding_model": "Federal government.",
-    "provides_funding": "Yes - substantial funding through programs like WaterSMART, the Inflation Reduction Act and the Investing in America agenda.",
+    "provides_funding": "Yes - substantial funding through programs like WaterSMART and the Inflation Reduction Act (IRA).",
     "website": "usbr.gov",
     "boundary_id": "huc8_roaring_fork",
     "category_confirmed": false,
